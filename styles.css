@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightsalmon;
+    font-family: Montserrat, sans-serif;
+}
+
+nav {
+    background-color: teal;
+}
+
+li a {
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 1.5rem 0 0.5rem 4.4rem;
+}
+
+header {
+    margin-top: 10.8rem;
+    margin-bottom: 15.8rem;
+    background-color: rgba(2, 16, 16, 0.556);
+}
+
+h1 {
+    color: rgb(235, 115, 68);
+    text-align: center;
+    padding: 2.0rem 0;
+}
+
+.about-community h2 {
+    margin-bottom: 1.5rem;
+}
+
+h2, h4 {
+    color: yellow;
+}
+
+.about-community h2, p {
+    margin-left: 1rem;
+}
+
+.txt-white {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    margin: 2.5rem auto;
+    gap: 20px;
+}
+
+img {
+    width: 32%;
+}
+
+.comment {
+    background-color: teal;
+    height: 320px;
+    max-height: 325px;
+    padding: 2rem 2rem 0 1rem;
+}
+
+.big-txt {
+    font-size: 2.2rem;
+    font-weight: normal;
+}
+
+.small-txt {
+    font-weight: lighter;
+    margin-top: 2rem;
+}
+
+.medium-txt {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.banner {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.banner .main-img {
+    width: 100%;
+}
+
+h6 {
+    text-align: center;
+    margin: 2.5rem 0;
+}
+
+.name {
+    color: aquamarine;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 620px) {
+    ul li {
+        display: block;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    li a {
+        text-decoration: underline;
+        text-decoration-color: blue;
+    }
+
+    header {
+        margin-top: 4.2rem;
+        margin-bottom: 7rem;
+    }
+
+}
+
+@media screen and (max-width: 1040px) {
+   .imgs, img {
+    display: block;
+   }
+
+   img {
+    margin-bottom: 1.5rem;
+   }
+
+   .imgs, img {
+    width: 100%;
+   } 
+}
+
+@media screen and (max-width: 550px) {
+    .small-txt {
+        margin-bottom: 0;
+    }
+}
