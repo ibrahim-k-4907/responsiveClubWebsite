@@ -147,3 +147,18 @@ footer {
         margin-bottom: 0;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .big-txt {
+        font-size: 1.4rem;
+    }
+
+    .comment {
+        height: 300px;
+    }
+
+    .small-txt {
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+}
